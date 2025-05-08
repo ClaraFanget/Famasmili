@@ -379,8 +379,8 @@ class AnimePosterGenerator(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     
-    dataset_root = "D:/Courses/UdeM IFT6251_AlgorithmicArt/Cours_1_work/SWArt Works/DataBased/anime_dataset"
-    metadata_path = "D:/Courses/UdeM IFT6251_AlgorithmicArt/Cours_1_work/SWArt Works/DataBased/metadata.json"
+    dataset_root = "/Users/clara/Desktop/SPA/Repos_Eleves/Famasmili/DataBased/anime_dataset"
+    metadata_path = "/Users/clara/Desktop/SPA/Repos_Eleves/Famasmili/DataBased/metadata.json"
     
     dataset = AnimeDataset(dataset_root, metadata_path)
     

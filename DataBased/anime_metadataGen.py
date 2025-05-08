@@ -48,7 +48,7 @@ def generate_anime_metadata(dataset_path):
     
     return metadata
 
-def save_metadata(metadata, output_path="D:/Courses/UdeM IFT6251_AlgorithmicArt/Cours_1_work/SWArt Works/DataBased/metadata.json"):
+def save_metadata(metadata, output_path="/Users/clara/Desktop/SPA/Repos_Eleves/Famasmili/DataBased/metadata.json"):
     """Saves the metadata dictionary to a JSON file"""
     with open(output_path, 'w') as f:
         json.dump(metadata, f, indent=2)
@@ -56,7 +56,7 @@ def save_metadata(metadata, output_path="D:/Courses/UdeM IFT6251_AlgorithmicArt/
 
 if __name__ == "__main__":
     # Update this path to your dataset directory
-    dataset_path = "D:/Courses/UdeM IFT6251_AlgorithmicArt/Cours_1_work/SWArt Works/DataBased/anime_dataset"
+    dataset_path = "/Users/clara/Desktop/SPA/Repos_Eleves/Famasmili/DataBased/anime_dataset"
     
     metadata = generate_anime_metadata(dataset_path)
     save_metadata(metadata)
